@@ -1,21 +1,28 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="container-fluid">
     <%= link_to "#", class: "navbar-brand" do %>
-      <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+       <%= image_tag "https://i.imgur.com/ljxXi78.jpg", style:"height: 60px; width: 80px; margin-left: 10px"%>
     <% end %>
+
+    <div >
+      <ul class="links-navbar">
+       <li class="link-navbar"><%= link_to "Home", "#", style:"text-decoration:none; color:gray; font-size:larger" %></li>
+       <li class="link-navbar"><%= link_to "Properties", "#", style:"text-decoration:none; color: gray; font-size:larger" %></li>
+       <li class="link-navbar"><%= link_to "About", "#", style:"text-decoration:none; color: gray; font-size:larger" %></li>
+       <li class="link-navbar"><%= link_to "Contact", "#", style:"text-decoration:none; color: gray; font-size:larger" %></li>
+      </ul>
+    </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
         <% if user_signed_in? %>
-          <li class="nav-item active">
-            <%= link_to "Home", "#", class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Messages", "#", class: "nav-link" %>
+          <li class="nav-item m-1" style="display:flex; align-items: center;">
+            <i class="far fa-bell" style="font-size:x-large; margin:10px"></i>
           </li>
           <li class="nav-item dropdown">
             <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
@@ -26,9 +33,9 @@
             </div>
           </li>
         <% else %>
-          <li class="nav-item">
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
-          </li>
+           <li class="nav-item boton-login" >
+            <%= link_to "Login", new_user_session_path, class: "nav-link", style:"font-family:Helvetica; color: white;" %>
+          <li>
         <% end %>
       </ul>
     </div>

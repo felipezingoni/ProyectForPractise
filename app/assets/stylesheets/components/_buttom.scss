@@ -1,0 +1,71 @@
+.boton-subtittle{
+  box-shadow: 2px 2px 3px rgba(175, 174, 174, 0.678);
+  width: fit-content;
+  padding-left:4px;
+  padding-right: 4px;
+  padding: 10px;
+  margin: 8px;
+  font-weight: 400;
+  color: #4eaebecc;
+
+}
+
+
+.boton {
+  background-color: rgba(76, 143, 76, 0.801);
+  font-weight: normal;
+  width: fit-content;
+  border-radius: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: larger;
+}
+
+.ghost {
+  color: white;
+  text-decoration: none;
+  background-color: #0283BE;
+  border: 2px solid #0282be71;
+  width: 300px;
+  padding: 8px 24px;
+  border-radius: 10px;
+  font-weight: 500;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.ghost:hover {
+  opacity: 1;
+  background-color: #026a9b;
+  color: white;
+  text-decoration: none;
+}
+
+.boton-learn {
+  border: 2px solid #53bacccc;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.live {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #53baccc2;
+  animation: pulse 1500ms infinite;
+  padding: 10px;
+  margin: 14px;
+}
+
+@keyframes pulse {
+  0%{
+    box-shadow: #53bacc9d 0 0 0 0 ;
+  }
+  75%{
+    box-shadow: #53baccd5 0 0 0 16px ;
+  }
+
+}

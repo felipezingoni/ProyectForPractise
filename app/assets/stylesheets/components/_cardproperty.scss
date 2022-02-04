@@ -1,0 +1,57 @@
+.card-product {
+  overflow: hidden;
+  height: 190px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 52%;
+  border-radius: 7px;
+}
+
+.card-product img {
+  height: 90%;
+  width: 300px;
+  object-fit: cover;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-product h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product h3 {
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  color: rgb(114, 114, 114);
+  font-size: 16px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 14px;
+}
+
+.card-product .card-product-infos {
+  padding: 10px;
+}
+
+.card-icon {
+
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  width: 382px;
+  justify-content: space-between;
+  height: 83px;
+}

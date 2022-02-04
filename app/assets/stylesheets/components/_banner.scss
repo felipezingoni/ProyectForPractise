@@ -1,0 +1,46 @@
+.banner {
+  background-position: right top;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 902px;
+  background-color: transparent;
+
+}
+.banner-title {
+  margin: 10px;
+  padding-left: 12%;
+  padding-top: 10%;
+}
+
+.tittle {
+  font-weight: bold;
+  font-size: 60px;
+  padding: 10px;
+  font-family: initial;
+}
+.subtitle {
+  font-family: system-ui;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+}
+
+.tabs-underlined .tab-underlined {
+  color: black;
+  padding: 8px;
+  margin: 8px;
+  opacity: .4;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.tabs-underlined .tab-underlined.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
+}
