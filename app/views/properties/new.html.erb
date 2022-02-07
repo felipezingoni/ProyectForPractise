@@ -1,0 +1,17 @@
+<%= simple_form_for(@properties) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :location %>
+  <%= f.input :price %>
+
+  <%= f.input :bedroom %>
+  <%= f.input :bathroom %>
+  <%= f.input :rating %>
+
+  <%= f.input :address,
+              input_html: { data: { geocoder_target: "address" } },
+              wrapper_html: { data: { controller: "geocoder", geocoder_api_key_value: ENV['MAPBOX_API_KEY'] } } %>
+
+  <%= f.input :images, as: :file, label: "Image of house" %>
+
+  <%= f.button :submit, class: "btn btn-primary" %>
+<% end %>

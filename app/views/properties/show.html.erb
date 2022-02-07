@@ -1,0 +1,6 @@
+<h2><%= @property.title %></h2>
+<h4><%= @property.location %></h4>
+<h4><%= @property.price %></h4>
+<% @property.images.each do |image| %>
+  <%= cl_image_tag image.key, height: 300, width: 400, crop: :fill %>
+<% end %>

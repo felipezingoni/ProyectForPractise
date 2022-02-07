@@ -1,0 +1,27 @@
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.index {
+  display: flex;
+  height: 848px;
+}
+
+.info-window {
+  margin: 5px;
+  background-color: rgba(211, 211, 211, 0.329);
+  width: 250px;
+  height: 200px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  max-width: none;
+  width: 100%;
+  border: 1px solid lightgrey;
+  box-shadow: none;
+}

@@ -1,0 +1,23 @@
+.scroll {
+  background-color: #75d0f177;
+  overflow-y: scroll;
+  width: 130%;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.title2{
+    padding: 26px;
+    background-color: white;
+    margin: 24px;
+    text-align: center;
+    border: 1px grey;
+}
