@@ -44,3 +44,44 @@
   opacity: 1;
   border-bottom: 3px solid #555555;
 }
+
+.banner-aboutus {
+  object-fit: contain;
+    height: 365px;
+    background-size: cover;
+    background-position: center 631px;
+}
+
+.about-title {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+  padding-top: 58px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(207, 207, 207);
+}
+
+.banner-aboutus1 {
+  object-fit: contain;
+    height: 365px;
+    background-size: cover;
+    background-position: center 631px;
+    border-radius: 12px;
+    margin-top: 130px;
+    padding: 30px;
+}
+
+.about-title1 {
+  font-family:'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  padding-top: 58px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(207, 207, 207);
+}
