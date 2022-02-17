@@ -1,5 +1,5 @@
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
-/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220204-37021-1mzqbjq.rb extconf.rb
+/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220210-54121-dds217.rb extconf.rb
 creating Makefile
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bootsnap-1.10.3/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220204-37021-pf1nzc/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220210-54121-1blcpwi/bootsnap

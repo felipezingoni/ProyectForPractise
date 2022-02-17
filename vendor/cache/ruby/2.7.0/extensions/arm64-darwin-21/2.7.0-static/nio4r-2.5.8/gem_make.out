@@ -1,5 +1,5 @@
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220204-37021-9gk3ut.rb extconf.rb
+/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220210-54121-1tsp67u.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -254,4 +254,4 @@ linking shared-object nio4r_ext.bundle
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20220204-37021-cd3ulc
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20220210-54121-1t6ktgk

@@ -1,5 +1,5 @@
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
-/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220204-37021-nib2ct.rb extconf.rb
+/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220210-54121-1farbkp.rb extconf.rb
 creating Makefile
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
@@ -12,4 +12,4 @@ linking shared-object skiptrace/internal/cruby.bundle
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220204-37021-faeieq/skiptrace/internal
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220210-54121-1px12p1/skiptrace/internal

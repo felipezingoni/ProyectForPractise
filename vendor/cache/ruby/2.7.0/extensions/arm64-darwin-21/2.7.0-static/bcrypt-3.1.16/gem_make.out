@@ -1,5 +1,5 @@
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220204-37021-1g7w3q5.rb extconf.rb
+/Users/felipezingoni/.rubies/ruby-2.7.5/bin/ruby -I /Users/felipezingoni/.rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20220210-54121-pljdji.rb extconf.rb
 creating Makefile
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
@@ -20,4 +20,4 @@ linking shared-object bcrypt_ext.bundle
 
 current directory: /Users/felipezingoni/code/felipezingoni/ProyectForPractise/vendor/cache/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20220204-37021-aa04k1
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20220210-54121-rjyiyu
