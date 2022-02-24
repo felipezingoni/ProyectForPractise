@@ -38,11 +38,34 @@
   height: 900px;
   width: 700px;
   object-fit: cover;
-  padding: 17px;
+
 
 }
 
-.row {
-  margin-right: 127px;
+.logins {
   margin-left: 127px;
+}
+
+.tocs{
+
+  position: relative;
+    background-color: white;
+    width: fit-content;
+    left: 826px;
+    top: 197px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.signup {
+  width: 500px;
+
+}
+
+.backsignup {
+  background-image: url("https://i.imgur.com/SIoRN3f.jpg");
+  background-size: 1439px 800px;
+    background-repeat: no-repeat;
+    height: 800px;
+
 }
