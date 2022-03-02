@@ -13,7 +13,12 @@
           <%= f.input :password,
                       required: false,
                       input_html: { autocomplete: "current-password" } %>
-          <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+
+          <div style="display: flex;justify-content: space-between;">
+              <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+
+              <%= render "devise/shared/forgot" %>
+          </div>
         </div>
 
         <div class="form-actions" >
@@ -26,7 +31,13 @@
           <%= image_tag('https://i.imgur.com/VioNFTO.png', size: "20x20")  %>
           <%= link_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path, class:"signingoogle" %>
         </div>
-        <%= render "devise/shared/links" %>
+        <div style="display:flex;justify-content: flex-start;margin-top: 40px;">
+          <p style="margin-right: 14px;">Don't have an account?</p>
+          <%= render "devise/shared/links" %>
+        </div>
+
+
+
     </div>
   </div>
 

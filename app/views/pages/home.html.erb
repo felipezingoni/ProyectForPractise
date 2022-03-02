@@ -32,7 +32,7 @@
        </div>
     </div>
 
-    <div class="" style="display:flex; margin-top: 20px;">
+    <div class="" style="display:flex;justify-content: space-around; margin-top: 20px;">
       <div class="card1-home">
         <%= image_tag('https://i.imgur.com/6jSAAiD.jpg',id:"img")  %>
 
@@ -145,7 +145,11 @@
 
      </div>
 
+    <div>
+      <h2>Sign up for my Newsletter!</h2>
+      <%= render "devise/shared/newsletter" %>
 
+    </div>
 
 
     <div class="container" style="display:flex;">
